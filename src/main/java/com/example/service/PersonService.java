@@ -46,6 +46,12 @@ public class PersonService {
 		p.setFirstName("Ahmed");
 		p.setLastName("Yasser");
 		persons.add(p);
+		p = new Person();
+		p.setId("6");
+		p.setAge(23);
+		p.setFirstName("yasser");
+		p.setLastName("Yasser");
+		persons.add(p);
 		
 	}
 	public Person getPerson(String id) {
